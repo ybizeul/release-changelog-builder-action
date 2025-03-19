@@ -866,7 +866,7 @@ function extractValues(pr: PullRequestInfo, extractor: RegexTransformer, extract
     }
     return results
   } else {
-    return extractValuesFromString(pr.body, extractor)
+    return extractValuesFromString(pr.title, extractor)
   }
 }
 
