@@ -54831,6 +54831,7 @@ async function run() {
         const configurationJson = core.getInput('configurationJson', {
             trimWhitespace: true
         });
+        core.info(configurationJson);
         if (configurationJson) {
             configJson = parseConfiguration(configurationJson);
             if (configJson) {
