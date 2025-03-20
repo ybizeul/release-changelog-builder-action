@@ -43446,7 +43446,7 @@ function extractValues(pr, extractor, extractor_usecase) {
         return results;
     }
     else {
-        return extractValuesFromString(pr.body, extractor);
+        return extractValuesFromString(pr.title, extractor);
     }
 }
 function extractValuesFromString(value, extractor) {
